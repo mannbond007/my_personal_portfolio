@@ -53,7 +53,7 @@ const Experience = () => {
   return (
     <div
       id="experience"
-      className="relative py-20 px-4 sm:px-6 bg-slate-950 overflow-hidden border-b border-neutral-900"
+      className="relative px-4 sm:px-6 bg-slate-950 overflow-hidden border-b border-neutral-900"
     >
       {/* Background Grid Pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f1a_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f1a_1px,transparent_1px)] bg-[size:14px_24px] z-0 pointer-events-none" />
