@@ -44,7 +44,7 @@ const Technology = () => {
   return (
     <div
       id="technology"
-      className="relative py-20 px-4 bg-slate-950 overflow-hidden"
+      className="relative py-12 sm:py-20  px-4 bg-slate-950 overflow-hidden"
     >
       {/* Background Grid */}
       <div className="absolute inset-0">
@@ -63,7 +63,7 @@ const Technology = () => {
         </h1>
 
         {/* Animated Icons Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-16 sm:gap-8 max-w-6xl w-full justify-items-center py-5">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-16 sm:gap-8 max-w-6xl w-full justify-items-center py-10">
           {techStack.map((tech, index) => (
             <motion.div
               key={index}

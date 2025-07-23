@@ -19,26 +19,50 @@ const Footer = () => {
           Vivek Kumar
         </h2>
 
-        <p className="text-sm sm:text-base max-w-2xl leading-relaxed text-gray-400 px-2 sm:px-4">
+        <p className="max-w-xl text-gray-400 mb-8 text-[16px] sm:text-center sm:text-lg md:text-xl leading-relaxed font-Playfair text-left px-2 sm:px-0">
           Passionate Full Stack Developer crafting seamless digital experiences.
-          I turn complex problems into elegant solutions through clean code and modern design.
+          I turn complex problems into elegant solutions through clean code and
+          modern design.
         </p>
 
         {/* Social Icons */}
         <div className="flex flex-wrap justify-center gap-6 text-2xl">
-          <a href="https://github.com/vivek-kumar" target="_blank" rel="noopener noreferrer" className="hover:text-white transition transform hover:scale-110 duration-300 text-slate-400">
+          <a
+            href="https://github.com/vivek-kumar"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition transform hover:scale-110 duration-300 text-slate-400"
+          >
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/vivek-kumar" target="_blank" rel="noopener noreferrer" className="transition transform hover:scale-110 duration-300 text-slate-400 hover:text-[#0077b5]">
+          <a
+            href="https://linkedin.com/in/vivek-kumar"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition transform hover:scale-110 duration-300 text-slate-400 hover:text-[#0077b5]"
+          >
             <FaLinkedin />
           </a>
-          <a href="mailto:vivek@example.com" className="transition transform hover:scale-110 duration-300 text-slate-400 hover:text-[#ea4335]">
+          <a
+            href="mailto:vivek@example.com"
+            className="transition transform hover:scale-110 duration-300 text-slate-400 hover:text-[#ea4335]"
+          >
             <FaEnvelope />
           </a>
-          <a href="https://instagram.com/vivek-kumar" target="_blank" rel="noopener noreferrer" className="transition transform hover:scale-110 duration-300 text-slate-400 hover:text-[#e1306c]">
+          <a
+            href=" https://www.instagram.com/vivek_kumar_gzp61?igsh=aGppNGdheHhwY3N1&utm_source=ig_contact_invite"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition transform hover:scale-110 duration-300 text-slate-400 hover:text-[#e1306c]"
+          >
             <FaInstagram />
           </a>
-          <a href="https://facebook.com/vivek-kumar" target="_blank" rel="noopener noreferrer" className="transition transform hover:scale-110 duration-300 text-slate-400 hover:text-[#1877f2]">
+          <a
+            href="https://facebook.com/vivek-kumar"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition transform hover:scale-110 duration-300 text-slate-400 hover:text-[#1877f2]"
+          >
             <FaFacebook />
           </a>
         </div>
@@ -53,7 +77,8 @@ const Footer = () => {
             © {new Date().getFullYear()}{" "}
             <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-l from-[#fb7185] via-[#a21caf] to-[#6366f1]">
               Vivek Kumar ❤️
-            </span>. All rights reserved.
+            </span>
+            . All rights reserved.
           </p>
 
           {/* Center (Contact Me Button Centered) */}

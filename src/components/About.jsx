@@ -39,19 +39,10 @@ const About = () => {
           </div>
 
           {/* Text */}
-          <div className="text-white text-center md:text-left">
-            <p className="mb-6 text-base sm:text-lg leading-8 text-gray-400 font-Playfair">
-              I'm a full-stack developer passionate about crafting responsive,
-              high-performance web applications. My goal is to combine clean
-              code with engaging designs to build seamless digital experiences.
-              I love turning ideas into reality through modern technologies and
-              thoughtful development. From building intuitive user interfaces
-              with React to designing scalable APIs with Node.js and MongoDB, I
-              ensure end-to-end quality in every project. I'm also deeply
-              interested in UI/UX design, performance optimization, and staying
-              ahead with emerging tools in the JavaScript ecosystem. I believe
-              in writing maintainable code, focusing on accessibility, and
-              delivering solutions that make an impact.
+          {/* Text */}
+          <div className="text-white text-left px-2 sm:px-0">
+            <p className="mb-6 text-[16px] sm:text-base md:text-lg leading-relaxed sm:leading-8 text-gray-400 font-Playfair max-w-xl mx-auto md:mx-0">
+             I'm a full-stack developer passionate about building responsive and high-performance web applications. I enjoy turning ideas into clean, functional, and engaging digital experiences. With React on the frontend and <span className="bg-clip-text text-transparent font-bold bg-gradient-to-r from-green-500 to-green-700">Node.js</span> with <span className="bg-clip-text text-transparent font-bold bg-gradient-to-tl from-[#ffe037] via-[#1dcd9f] to-[#088c6f]">MongoDB</span> on the backend, I ensure end-to-end quality in every project. I’m also deeply interested in <span className="bg-clip-text text-transparent font-bold bg-gradient-to-br from-[#ea047e] via-[#ff6d28] to-[#fce700]">UI/UX</span> design, performance optimization, and writing maintainable, accessible code using modern <span className="bg-clip-text text-transparent font-bold bg-gradient-to-r from-lime-600 via-yellow-300 to-red-600">JavaScript</span> tools.
             </p>
 
             {/* Buttons */}

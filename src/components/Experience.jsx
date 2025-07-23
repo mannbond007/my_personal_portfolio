@@ -66,7 +66,7 @@ const Experience = () => {
           </span>
         </h1>
 
-        <div className="space-y-12">
+        <div className="space-y-16 py-6">
           {EXPERIENCES.map((item, index) => (
             <div
               key={index}
@@ -90,7 +90,7 @@ const Experience = () => {
                 </p>
 
                 {/* Technologies */}
-                <div className="flex flex-wrap gap-2 mt-2">
+                <div className="flex flex-wrap gap-2 mt-2 ">
                   {item.technologies.map((tech, techIndex) => (
                     <span
                       key={techIndex}

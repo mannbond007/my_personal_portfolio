@@ -6,6 +6,13 @@ import chatapp from "../assets/chat.png";
 import gradient from "../assets/gradient.jpg";
 import virtualR from "../assets/virtualR.jpg";
 import openSource from "../assets/openSource.jpg";
+import saas from "../assets/saas.png";
+import aiBlog from "../assets/ai-blog.jpg";
+import devConnect from "../assets/devConnect.png";
+import taskManager from "../assets/taskManager.jpg";
+import docConverter from "../assets/doc-converter.jpg";
+import crypto from "../assets/crypto.jpg";
+
 const PROJECTS = [
    {
     title: "Portfolio Website",
@@ -97,7 +104,74 @@ const PROJECTS = [
 
     githubUrl: "https://github.com/mannbond007/personal-portfolio",
   },
+  // Sass Landing Page
+  {
+    title: "SaaS LaunchPad",
+    description:
+      "A dynamic and customizable landing page builder for startups and SaaS businesses with drag-and-drop UI.",
+    image: saas,
+    technologies: ["React", "Tailwind CSS", "Framer Motion", "Zustand", "Vite"],
+    liveUrl: "https://personal-portfolio-umber-two.vercel.app",
+
+    githubUrl: "https://github.com/mannbond007/personal-portfolio",
+  },
+  // AI-Powered Blog Generator
+  {
+    title: "AI Writer Pro",
+    description:
+      "A blog generator using OpenAI API that takes prompts and turns them into SEO-optimized articles with export & publish options.",
+    image: aiBlog,
+    technologies: ["React", "Tailwind CSS", "OpenAI API", "Node.js", "Express"],
+    liveUrl: "https://personal-portfolio-umber-two.vercel.app",
+
+    githubUrl: "https://github.com/mannbond007/personal-portfolio",
+  },
+  // DevConnector – Developer Community Platform
+  {
+    title: " DevConnector ",
+    description:
+      "A platform where developers can connect, post their work, collaborate, and chat in real-time.",
+    image: devConnect,
+    technologies: [ "React", "Tailwind CSS", "Socket.IO", "Firebase/Node.js"],
+    liveUrl: "https://personal-portfolio-umber-two.vercel.app",
+
+    githubUrl: "https://github.com/mannbond007/personal-portfolio",
+  },
+  // TaskFlow – Kanban Task Manager
+  {
+    title: " TaskFlow ",
+    description:
+      " A full-stack Trello-style task manager with drag-and-drop boards, team collaboration, and deadline tracking.",
+    image: taskManager,
+    technologies: [ "React", "Tailwind CSS", "DnD Kit", "Supabase/Firebase"],
+    liveUrl: "https://personal-portfolio-umber-two.vercel.app",
+
+    githubUrl: "https://github.com/mannbond007/personal-portfolio",
+  },
+  // ZionDocs – File Converter & Compressor
+  {
+    title: " ZionDocs ",
+    description:
+      " Convert and compress documents (PDF, DOCX, JPG) with real-time preview and dark mode.",
+    image: docConverter,
+    technologies: [ "React", "Tailwind CSS", "Node.js"," Express", "Multer"],
+    liveUrl: "https://personal-portfolio-umber-two.vercel.app",
+
+    githubUrl: "https://github.com/mannbond007/personal-portfolio",
+  },
+  // CryptoPulse – Real-Time Crypto Tracker
+  {
+    title: " CryptoPulse ",
+    description:
+   " Real-time dashboard to track crypto prices, market cap, and trends with charts and news feed.",
+    image: crypto,
+    technologies: [ "React", "Tailwind CSS", "Chart.js", "CoinGecko API"],
+    liveUrl: "https://personal-portfolio-umber-two.vercel.app",
+
+    githubUrl: "https://github.com/mannbond007/personal-portfolio",
+  },
 ];
+
 
 const Projects = () => {
   return (
@@ -115,7 +189,7 @@ const Projects = () => {
         </h1>
 
         {/* Project Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 py-6 ">
           {PROJECTS.map((item, index) => (
             <div
               key={index}
