@@ -63,7 +63,7 @@ const Technology = () => {
         </h1>
 
         {/* Animated Icons Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-16 sm:gap-8 max-w-6xl w-full justify-items-center py-10">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-16 sm:gap-12 max-w-6xl w-full justify-items-center py-10">
           {techStack.map((tech, index) => (
             <motion.div
               key={index}

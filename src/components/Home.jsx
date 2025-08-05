@@ -24,7 +24,7 @@ const Home = () => {
           <p className="mb-6 text-[16px] sm:text-base md:text-lg leading-relaxed sm:leading-8 text-gray-400 font-Playfair max-w-xl mx-auto md:mx-0 pb-6">
             Crafting elegant and scalable <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-200 via-green-400 to-purple-700 font-bold">web solutions</span> with modern
             technologies. Passionate about clean code, great design, and
-            seamless user experiences. I specialize in building responsive
+            seamless user experiences.<br /> I specialize in building responsive
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-cyan-500 font-bold" > {" "}frontends</span> and robust <span className="bg-clip-text text-transparent bg-gradient-to-bl from-red-200 via-rose-400 to-pink-600 font-bold">backends</span>, ensuring performance, security, and
             accessibility. Always exploring new tools and <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 font-bold">frameworks</span> to stay
             ahead in the ever-evolving tech landscape.

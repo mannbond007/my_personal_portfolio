@@ -56,8 +56,8 @@ const PROJECTS = [
       "A productivity tool to manage daily tasks, deadlines, and progress tracking.",
     image: taskmanager,
     technologies: ["React", "Firebase", "Tailwind CSS"],
-    liveUrl: "https://your-taskmanager.com",
-    githubUrl: "https://github.com/yourusername/task-manager",
+    liveUrl: "https://taskmanagerapp-xu61.onrender.com",
+    githubUrl: "https://github.com/mannbond007/TaskManagerApp",
   },
   {
     title: "Chat App",
@@ -144,9 +144,9 @@ const PROJECTS = [
       " A full-stack Trello-style task manager with drag-and-drop boards, team collaboration, and deadline tracking.",
     image: taskManager,
     technologies: [ "React", "Tailwind CSS", "DnD Kit", "Supabase/Firebase"],
-    liveUrl: "https://personal-portfolio-umber-two.vercel.app",
+    liveUrl: "https://taskmanagerapp-xu61.onrender.com",
 
-    githubUrl: "https://github.com/mannbond007/personal-portfolio",
+    githubUrl: "https://github.com/mannbond007/TaskManagerApp",
   },
   // ZionDocs – File Converter & Compressor
   {
