@@ -21,7 +21,7 @@ const Home = () => {
             </span>
           </h1>
 
-          <p className="mb-6 text-[16px] sm:text-base md:text-lg leading-relaxed sm:leading-7 text-gray-400 font-Playfair max-w-full md:max-w-xl">
+          <p className="mb-6 text-[15px] sm:text-base md:text-lg leading-relaxed sm:leading-7 text-gray-400 font-Playfair max-w-full md:max-w-xl">
             Crafting elegant and scalable{" "}
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-200 via-green-400 to-purple-700 font-bold">
               web solutions
@@ -47,7 +47,7 @@ const Home = () => {
           {/* Scroll to Projects Section */}
           <a
             href="#projects"
-            className="group w-fit flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-slate-700 via-pink-500 to-slate-900 hover:brightness-110 text-white rounded-md transition-all shadow cursor-pointer shadow-pink-600/30 mx-auto sm:mx-0"
+            className="group w-fit flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-slate-700 via-pink-500 to-slate-900 hover:brightness-110 text-white rounded-md transition-all shadow cursor-pointer shadow-pink-600/30 mx-auto sm:mx-0 mt-4"
           >
             Portfolio
             <span className="group-hover:translate-x-1 transition-transform duration-200">
@@ -57,18 +57,18 @@ const Home = () => {
         </div>
 
         {/* Image Section */}
-        <div className="flex justify-center md:justify-end  md:mt-0 w-full mt-15 mb-0">
+        <div className="flex justify-center md:justify-end w-full mt-8 md:mt-0">
           {/* Gradient Border Container */}
-          <div className="relative w-64 h-64  sm:w-72 sm:h-72 md:w-96 md:h-96 lg:w-[26rem] lg:h-[26rem] rounded-full p-[1px] bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 animate-gradient">
+          <div className="relative rounded-2xl p-[1px] bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 max-w-[24rem] w-full animate-gradient">
             
             {/* Glow Effect Layer */}
-            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 blur-xl opacity-50 animate-gradient"></div>
+            <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 blur-xl opacity-50 animate-gradient"></div>
 
             {/* Actual Image */}
             <img
               src={heroImage}
               alt="Hero"
-              className="relative w-full h-full rounded-full object-cover shadow-lg transition-transform duration-500 hover:scale-105"
+              className="relative w-full h-auto rounded-2xl object-cover shadow-lg transition-transform duration-500 hover:scale-105"
             />
           </div>
         </div>
