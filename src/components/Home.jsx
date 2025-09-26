@@ -33,12 +33,17 @@ const Home = () => {
               frontends
             </span>{" "}
             and robust{" "}
-            <span className="bg-clip-text text-transparent bg-gradient-to-bl from-red-200 via-rose-400 to-pink-600 font-bold">
+            <span className="bg-clip-text text-transparent bg-gradient-to-tr from-[#6b7280] via-[#22c55e] to-[#4ade80] font-bold">
               backends
             </span>
             , ensuring performance, security, and accessibility. Always
             exploring new tools and{" "}
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 font-bold">
+            <span
+              className="bg-clip-text text-transparent bg-gradient-to-tl
+from-[#84cc16]
+via-[#16a34a]
+to-[#0f766e] font-bold"
+            >
               frameworks
             </span>{" "}
             to stay ahead in the ever-evolving tech landscape.
@@ -60,7 +65,6 @@ const Home = () => {
         <div className="flex justify-center md:justify-end w-full mt-8 md:mt-0">
           {/* Gradient Border Container */}
           <div className="relative rounded-2xl p-[1px] bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 max-w-[24rem] w-full animate-gradient">
-            
             {/* Glow Effect Layer */}
             <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 blur-xl opacity-50 animate-gradient"></div>
 

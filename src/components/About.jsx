@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="relative py-16 px-4 sm:px-6 lg:px-8 bg-slate-950 overflow-hidden"
+      className="relative py-8 sm:py-12 px-4 sm:px-6 lg:px-8 bg-slate-950 overflow-hidden"
     >
       {/* Background Grid */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f20_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f20_1px,transparent_1px)] bg-[size:14px_24px] z-0" />
@@ -20,7 +20,7 @@ const About = () => {
       {/* Content Wrapper */}
       <div className="relative z-10 max-w-6xl mx-auto">
         {/* Heading */}
-        <h2 className="text-center text-4xl sm:text-5xl font-bold text-white font-Playfair mb-12">
+        <h2 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold text-white font-Playfair mb-10 sm:mb-12">
           About{" "}
           <span className="bg-gradient-to-r from-teal-400 to-teal-600 bg-clip-text text-transparent">
             Me
@@ -28,7 +28,7 @@ const About = () => {
         </h2>
 
         {/* Grid Layout */}
-        <div className="grid md:grid-cols-2 gap-y-12 md:gap-x-12 items-center py-8">
+        <div className="grid md:grid-cols-2 gap-y-8 md:gap-x-12 items-center py-4">
           {/* Image */}
           <div className="flex justify-center md:justify-start w-full">
             {/* Gradient Border Container */}
@@ -46,9 +46,8 @@ const About = () => {
           </div>
 
           {/* Text */}
-          {/* Text */}
-          <div className="text-white text-left px-2 sm:px-0">
-            <p className="mb-6 text-[16px] sm:text-base md:text-lg leading-relaxed sm:leading-8 text-gray-400 font-Playfair max-w-xl mx-auto md:mx-0">
+          <div className="text-white text-left px-0 sm:px-2 md:px-0">
+            <p className="mb-6 text-sm sm:text-base md:text-lg leading-relaxed sm:leading-7 text-gray-400 font-Playfair w-full">
               I'm a full-stack developer passionate about building responsive
               and high-performance web applications. I enjoy turning ideas into
               clean, functional, and engaging digital experiences. With React on
