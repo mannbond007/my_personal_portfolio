@@ -30,19 +30,47 @@ const About = () => {
         {/* Grid Layout */}
         <div className="grid md:grid-cols-2 gap-y-12 md:gap-x-12 items-center py-8">
           {/* Image */}
-          <div className="flex justify-center md:justify-start">
-            <img
-              src={aboutImg}
-              alt="Portrait of Vivek Kumar - Full Stack Developer"
-              className="rounded-2xl shadow-lg w-64 sm:w-80 md:w-[22rem] lg:w-[24rem] max-w-full transition-transform duration-300 hover:scale-105"
-            />
+          <div className="flex justify-center md:justify-start w-full">
+            {/* Gradient Border Container */}
+            <div className="relative rounded-2xl p-[1px] bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 animate-gradient max-w-[24rem] w-full">
+              {/* Glow Effect Layer */}
+              <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 blur-xl opacity-50 animate-gradient"></div>
+
+              {/* Actual Image */}
+              <img
+                src={aboutImg}
+                alt="Portrait of Vivek Kumar - Full Stack Developer"
+                className="relative w-full h-auto rounded-2xl object-cover shadow-lg transition-transform duration-300 hover:scale-105"
+              />
+            </div>
           </div>
 
           {/* Text */}
           {/* Text */}
           <div className="text-white text-left px-2 sm:px-0">
             <p className="mb-6 text-[16px] sm:text-base md:text-lg leading-relaxed sm:leading-8 text-gray-400 font-Playfair max-w-xl mx-auto md:mx-0">
-             I'm a full-stack developer passionate about building responsive and high-performance web applications. I enjoy turning ideas into clean, functional, and engaging digital experiences. With React on the frontend and <span className="bg-clip-text text-transparent font-bold bg-gradient-to-r from-green-500 to-green-700">Node.js</span> with <span className="bg-clip-text text-transparent font-bold bg-gradient-to-tl from-[#ffe037] via-[#1dcd9f] to-[#088c6f]">MongoDB</span> on the backend, I ensure end-to-end quality in every project. I’m also deeply interested in <span className="bg-clip-text text-transparent font-bold bg-gradient-to-br from-[#ea047e] via-[#ff6d28] to-[#fce700]">UI/UX</span> design, performance optimization, and writing maintainable, accessible code using modern <span className="bg-clip-text text-transparent font-bold bg-gradient-to-r from-lime-600 via-yellow-300 to-red-600">JavaScript</span> tools.
+              I'm a full-stack developer passionate about building responsive
+              and high-performance web applications. I enjoy turning ideas into
+              clean, functional, and engaging digital experiences. With React on
+              the frontend and{" "}
+              <span className="bg-clip-text text-transparent font-bold bg-gradient-to-r from-green-500 to-green-700">
+                Node.js
+              </span>{" "}
+              with{" "}
+              <span className="bg-clip-text text-transparent font-bold bg-gradient-to-tl from-[#ffe037] via-[#1dcd9f] to-[#088c6f]">
+                MongoDB
+              </span>{" "}
+              on the backend, I ensure end-to-end quality in every project. I’m
+              also deeply interested in{" "}
+              <span className="bg-clip-text text-transparent font-bold bg-gradient-to-br from-[#ea047e] via-[#ff6d28] to-[#fce700]">
+                UI/UX
+              </span>{" "}
+              design, performance optimization, and writing maintainable,
+              accessible code using modern{" "}
+              <span className="bg-clip-text text-transparent font-bold bg-gradient-to-r from-lime-600 via-yellow-300 to-red-600">
+                JavaScript
+              </span>{" "}
+              tools.
             </p>
 
             {/* Buttons */}
